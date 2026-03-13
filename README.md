@@ -92,6 +92,8 @@ GitHub
 
 Project Structure
 app/
+  layout.tsx
+  globals.css
   page.tsx
   services/
     page.tsx
@@ -101,20 +103,49 @@ app/
     page.tsx
 
 components/
-  Navbar.tsx
-  Footer.tsx
-  Hero.tsx
-  ServicesGrid.tsx
-  StrategyCallForm.tsx
-  TeamSection.tsx
-  CTASection.tsx
+  icons.tsx
+  marketing/
+    navbar.tsx
+    footer.tsx
+    hero.tsx
+    social-proof.tsx
+    services.tsx
+    process.tsx
+    results.tsx
+    cta.tsx
+    services-page-hero.tsx
+    services-grid.tsx
+    capability-breakdown.tsx
+    featured-service-blocks.tsx
+    services-page-cta.tsx
+    why-saleslord.tsx
+    about-hero.tsx
+    our-mission.tsx
+    our-approach.tsx
+    small-team.tsx
+    values.tsx
+    about-results.tsx
+    about-final-cta.tsx
+    contact-hero.tsx
+    strategy-call-form.tsx
+    who-this-is-for.tsx
+    contact-process.tsx
+    why-book.tsx
+    direct-contact.tsx
+    reassurance.tsx
+  ui/
+    button.tsx
+    card.tsx
+    container.tsx
+    section.tsx
+    text.tsx
+    form.tsx
+
+lib/
+  cn.ts
 
 public/
-  images
-  icons
-
-styles/
-  globals.css
+  logo.png
 
 The project uses a modular component structure to maintain readability and scalability.
 
