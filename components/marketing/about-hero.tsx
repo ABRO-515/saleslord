@@ -43,7 +43,7 @@ export function AboutHero() {
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-          <ButtonLink href="#contact" size="lg">
+          <ButtonLink href="/contact" size="lg">
             Book a Strategy Call
           </ButtonLink>
           <ButtonLink href="/services" variant="secondary" size="lg">

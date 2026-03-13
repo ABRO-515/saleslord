@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type React from "react";
 import { Section } from "@/components/ui/section";
 import { Eyebrow, H2, Lead } from "@/components/ui/text";
 import { Card } from "@/components/ui/card";
@@ -47,7 +48,7 @@ function ServiceCard({
 
       <div className="mt-7">
         <Link
-          href="#designed"
+          href="/services#designed"
           className={cn(
             "inline-flex items-center gap-2 text-sm font-medium text-text/85 transition-colors group-hover:text-text",
           )}

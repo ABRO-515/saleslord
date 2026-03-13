@@ -30,7 +30,7 @@ function ServiceCard({
       </div>
       <div className="mt-6">
         <Link
-          href="#contact"
+          href="/services"
           className={cn(
             "inline-flex items-center gap-2 text-sm font-medium text-text/85 transition-colors group-hover:text-text",
           )}

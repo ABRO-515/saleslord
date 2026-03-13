@@ -14,7 +14,7 @@ export function AboutFinalCTA() {
             engine.
           </p>
           <div className="mt-8">
-            <ButtonLink href="#contact" size="lg">
+            <ButtonLink href="/contact" size="lg">
               Book a Strategy Call
             </ButtonLink>
           </div>

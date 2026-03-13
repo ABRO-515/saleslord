@@ -11,7 +11,7 @@ const nav = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "About", href: "/about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export function Navbar() {
@@ -65,14 +65,14 @@ export function Navbar() {
 
           <div className="flex items-center gap-2">
             <ButtonLink
-              href="#contact"
+              href="/contact"
               size="sm"
               className="hidden sm:inline-flex"
             >
               Book a Strategy Call
             </ButtonLink>
             <ButtonLink
-              href="#contact"
+              href="/contact"
               variant="secondary"
               size="sm"
               className="sm:hidden"
