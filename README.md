@@ -1,96 +1,81 @@
-SalesLord Website
+# SalesLord Website
 
-SalesLord is a modern B2B sales and marketing agency website built with Next.js, React, and Tailwind CSS.
-The website showcases SalesLord's services, expertise, and allows companies to book a strategy call to discuss revenue growth opportunities.
+SalesLord is a modern B2B sales and marketing agency website built with Next.js, React, and Tailwind CSS. The website showcases SalesLord's services, expertise, and allows companies to book a strategy call to discuss revenue growth opportunities.
 
 The project is designed with a premium dark theme UI, optimized for performance, responsiveness, and scalability.
 
-Overview
+## Overview
 
 SalesLord helps B2B companies:
 
-Generate qualified leads
-
-Build predictable sales pipelines
-
-Automate marketing workflows
-
-Improve sales conversion systems
+- Generate qualified leads
+- Build predictable sales pipelines
+- Automate marketing workflows
+- Improve sales conversion systems
 
 This website is structured as a multi-page B2B marketing site focused on clarity, credibility, and lead conversion.
 
-Features
-Modern B2B Design
+## Features
 
-Premium dark navy + gold UI
+### Modern B2B Design
 
-Clean typography hierarchy
+- Premium dark navy + gold UI
+- Clean typography hierarchy
+- Conversion-focused layout
+- Professional agency presentation
 
-Conversion-focused layout
-
-Professional agency presentation
-
-Multi-Page Architecture
+### Multi-Page Architecture
 
 The website includes:
 
-Landing Page
-
-Services Page
-
-About Page
-
-Contact / Strategy Call Page
-
-Strategy Call Booking Page
+- Landing Page
+- Services Page
+- About Page
+- Contact / Strategy Call Page
 
 A dedicated lead capture page where users can submit details about their company and request a strategy session.
 
-Fully Responsive
+### Fully Responsive
 
 Optimized for:
 
-Desktop
+- Desktop
+- Tablet
+- Mobile
 
-Tablet
-
-Mobile
-
-Component Based Architecture
+### Component Based Architecture
 
 Reusable components ensure the codebase remains clean and scalable.
 
-Production Ready
+### Production Ready
 
-Clean folder structure
+- Clean folder structure
+- Optimized layouts
+- Accessible form structure
+- Ready for deployment on Vercel
 
-Optimized layouts
+## Tech Stack
 
-Accessible form structure
+### Framework
 
-Ready for deployment on Vercel
+- Next.js (App Router)
 
-Tech Stack
+### Frontend
 
-Framework
+- React
+- Tailwind CSS
 
-Next.js (App Router)
+### Deployment
 
-Frontend
+- Vercel
 
-React
+### Version Control
 
-Tailwind CSS
+- GitHub
 
-Deployment
+## Project Structure
 
-Vercel
-
-Version Control
-
-GitHub
-
-Project Structure
+```
 app/
   layout.tsx
   globals.css
@@ -146,107 +131,102 @@ lib/
 
 public/
   logo.png
+```
 
 The project uses a modular component structure to maintain readability and scalability.
 
-Pages
-Landing Page
+## Pages
 
-Introduces SalesLord and highlights the company’s services, process, and revenue impact.
+### Landing Page
 
-Services Page
+Introduces SalesLord and highlights the company's services, process, and revenue impact.
+
+### Services Page
 
 Explains the main services offered:
 
-Lead Generation
+- Lead Generation
+- Sales Outsourcing
+- Marketing Automation
 
-Sales Outsourcing
-
-Marketing Automation
-
-About Page
+### About Page
 
 Provides information about the company mission, team philosophy, and approach to B2B revenue growth.
 
-Contact Page
+### Contact Page
 
 The Book a Strategy Call page where companies can submit their details and request a consultation.
 
-Design System
-Color Palette
+## Design System
 
-Primary Background
-#0B1C2C
+### Color Palette
 
-Secondary Background
-#142C44
+- **Primary Background**: #0B1C2C
+- **Secondary Background**: #142C44
+- **Accent Color**: #D4AF37
+- **Text**: #F5F7FA
+- **Muted Text**: #9FB3C8
 
-Accent Color
-#D4AF37
+### Typography
 
-Text
-#F5F7FA
-
-Muted Text
-#9FB3C8
-
-Typography
-
-Inter
-
-Geist
+- Inter
+- Geist
 
 The UI focuses on:
 
-clean spacing
+- Clean spacing
+- Strong hierarchy
+- Modern B2B aesthetic
 
-strong hierarchy
+## Getting Started
 
-modern B2B aesthetic
+### Install Dependencies
 
-Getting Started
-Install Dependencies
+```bash
 npm install
-Run Development Server
+```
+
+### Run Development Server
+
+```bash
 npm run dev
+```
 
-The site will be available at:
+The site will be available at: [http://localhost:3000](http://localhost:3000)
 
-http://localhost:3000
-Build for Production
+### Build for Production
+
+```bash
 npm run build
+```
 
-Start production server:
+### Start Production Server
 
+```bash
 npm start
-Deployment
+```
+
+## Deployment
 
 This project is optimized for Vercel deployment.
 
-Steps:
+### Steps:
 
-Push the repository to GitHub
+1. Push the repository to GitHub
+2. Connect the repository to Vercel
+3. Deploy automatically
 
-Connect the repository to Vercel
-
-Deploy automatically
-
-Future Improvements
+## Future Improvements
 
 Possible future additions:
 
-CRM integration for strategy call form
+- CRM integration for strategy call form
+- Calendly integration
+- Blog / insights section
+- Case studies
+- Analytics tracking
+- CMS for content management
 
-Calendly integration
-
-Blog / insights section
-
-Case studies
-
-Analytics tracking
-
-CMS for content management
-
-License
+## License
 
 This project is provided for demonstration and development purposes.
