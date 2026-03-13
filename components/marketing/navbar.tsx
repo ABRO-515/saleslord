@@ -5,10 +5,11 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/cn";
 import { Container } from "@/components/ui/container";
 import { ButtonLink } from "@/components/ui/button";
+import Image from "next/image";
 
 const nav = [
-  { label: "Home", href: "#home" },
-  { label: "Services", href: "#services" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/services" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
@@ -38,21 +39,27 @@ export function Navbar() {
           )}
         >
           <Link
-            href="#home"
+            href="/"
             className="text-sm font-semibold tracking-tight text-text"
           >
-            SalesLord
+            <Image
+              src="/logo.png"
+              width={500}
+              height={500}
+              alt="Logo of the brand"
+              className="h-12 w-36 object-contain"
+            />
           </Link>
 
           <nav className="hidden items-center gap-6 md:flex">
             {nav.map((item) => (
-              <a
+              <Link
                 key={item.href}
                 href={item.href}
                 className="text-sm text-muted transition-colors hover:text-text"
               >
                 {item.label}
-              </a>
+              </Link>
             ))}
           </nav>
 
