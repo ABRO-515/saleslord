@@ -1,36 +1,221 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+SalesLord Website
 
-## Getting Started
+SalesLord is a modern B2B sales and marketing agency website built with Next.js, React, and Tailwind CSS.
+The website showcases SalesLord's services, expertise, and allows companies to book a strategy call to discuss revenue growth opportunities.
 
-First, run the development server:
+The project is designed with a premium dark theme UI, optimized for performance, responsiveness, and scalability.
 
-```bash
+Overview
+
+SalesLord helps B2B companies:
+
+Generate qualified leads
+
+Build predictable sales pipelines
+
+Automate marketing workflows
+
+Improve sales conversion systems
+
+This website is structured as a multi-page B2B marketing site focused on clarity, credibility, and lead conversion.
+
+Features
+Modern B2B Design
+
+Premium dark navy + gold UI
+
+Clean typography hierarchy
+
+Conversion-focused layout
+
+Professional agency presentation
+
+Multi-Page Architecture
+
+The website includes:
+
+Landing Page
+
+Services Page
+
+About Page
+
+Contact / Strategy Call Page
+
+Strategy Call Booking Page
+
+A dedicated lead capture page where users can submit details about their company and request a strategy session.
+
+Fully Responsive
+
+Optimized for:
+
+Desktop
+
+Tablet
+
+Mobile
+
+Component Based Architecture
+
+Reusable components ensure the codebase remains clean and scalable.
+
+Production Ready
+
+Clean folder structure
+
+Optimized layouts
+
+Accessible form structure
+
+Ready for deployment on Vercel
+
+Tech Stack
+
+Framework
+
+Next.js (App Router)
+
+Frontend
+
+React
+
+Tailwind CSS
+
+Deployment
+
+Vercel
+
+Version Control
+
+GitHub
+
+Project Structure
+app/
+  page.tsx
+  services/
+    page.tsx
+  about/
+    page.tsx
+  contact/
+    page.tsx
+
+components/
+  Navbar.tsx
+  Footer.tsx
+  Hero.tsx
+  ServicesGrid.tsx
+  StrategyCallForm.tsx
+  TeamSection.tsx
+  CTASection.tsx
+
+public/
+  images
+  icons
+
+styles/
+  globals.css
+
+The project uses a modular component structure to maintain readability and scalability.
+
+Pages
+Landing Page
+
+Introduces SalesLord and highlights the company’s services, process, and revenue impact.
+
+Services Page
+
+Explains the main services offered:
+
+Lead Generation
+
+Sales Outsourcing
+
+Marketing Automation
+
+About Page
+
+Provides information about the company mission, team philosophy, and approach to B2B revenue growth.
+
+Contact Page
+
+The Book a Strategy Call page where companies can submit their details and request a consultation.
+
+Design System
+Color Palette
+
+Primary Background
+#0B1C2C
+
+Secondary Background
+#142C44
+
+Accent Color
+#D4AF37
+
+Text
+#F5F7FA
+
+Muted Text
+#9FB3C8
+
+Typography
+
+Inter
+
+Geist
+
+The UI focuses on:
+
+clean spacing
+
+strong hierarchy
+
+modern B2B aesthetic
+
+Getting Started
+Install Dependencies
+npm install
+Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The site will be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+Build for Production
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start production server:
 
-## Learn More
+npm start
+Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is optimized for Vercel deployment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Push the repository to GitHub
 
-## Deploy on Vercel
+Connect the repository to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy automatically
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Future Improvements
+
+Possible future additions:
+
+CRM integration for strategy call form
+
+Calendly integration
+
+Blog / insights section
+
+Case studies
+
+Analytics tracking
+
+CMS for content management
+
+License
+
+This project is provided for demonstration and development purposes.
